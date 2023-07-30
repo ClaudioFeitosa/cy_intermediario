@@ -59,3 +59,4 @@ Cypress.Commands.add('login', (
     cy.contains('Create project').click()
   })
 
+//  novo teste git
