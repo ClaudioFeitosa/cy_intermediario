@@ -14,7 +14,12 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
+import 'cypress-plugin-api'
+import './cgui_commands'
+import './api_commands'
+import './cli_commands'
 import './gui_commands'
+
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

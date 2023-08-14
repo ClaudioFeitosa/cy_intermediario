@@ -5,7 +5,8 @@
   "main": "cypress.config.js",
   "scripts": {
     "cy:open": "cypress open - Grafico",
-    "test": "cypress run"  },
+    "test": "cypress run"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wlsf82/cypress-intermediario-v2.git"
@@ -26,6 +27,4 @@
     "cypress": "^12.0.2",
     "cypress-plugin-api": "^2.6.1"
   }
-
 }
-

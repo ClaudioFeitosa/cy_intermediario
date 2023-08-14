@@ -1,10 +1,12 @@
 import { faker } from '@faker-js/faker'
+const options = { env: { snapshotOnly: true } }
 
-describe('Crate Project', () => {
+describe('Crate Project',options, () => {
     beforeEach(() =>{
         cy.login()
+        cy.api_deleteProjects()        
     })
-    it('Create Project successfully', () => {
+    it.only('Create Project successfully', () => {
         const project ={
             name: `project_do_claudio-${faker.datatype.uuid()}`, //template literals  java script MDM template literasls -> expressão javaScript(faker.datatype.uuid())
             description: `descrição do Claudio -${faker.random.words(6)}`
