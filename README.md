@@ -1,5 +1,5 @@
 atualizado 1408
-
+atualiado dia 17/08
 
 # Testes automatizados com Cypress - Intermediário
 
